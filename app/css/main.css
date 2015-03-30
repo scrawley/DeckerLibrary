@@ -40,9 +40,6 @@ li a {
  margin-right:10px;   
 }
 
-a > .active {
-    color:#D1BB2A;  
-}
 
 /* ## Headers
 
@@ -305,6 +302,11 @@ a > .ask_librarian > h3:hover {
     padding-top:44px;  
 }
 
+.catalogsearch_navigation {
+    margin:0 auto; 
+    background-color:white;
+}
+
 .searchbar > input {
     background-image:url("../images/catalog_search_icon.png");
     background-repeat:no-repeat;
@@ -317,11 +319,31 @@ a > .ask_librarian > h3:hover {
     background-position: 97%;;
 }
 
+.catalogsearch_link {
+    padding-right:30px;
+    padding-left:30px;
+    text-align: center; 
+    border-right:1px #F1F1F2 solid;
+    background-color:white;
+}
+
+a > .catalogsearch_link > h5 {
+    color:#D1BB2A;
+}
+
+a > .catalogsearch_link > h5:hover {
+    
+}
+
+a > .catalogsearch_link:hover {
+    padding-right:30px;
+    text-align: center; 
+    background-color:#89C4B8;
+}
 
 /* ## Catalog Tabs
 
 */
-
 
 .catalog_tab_wrapper {
     background:#F1F1F2;
@@ -349,7 +371,6 @@ a > .ask_librarian > h3:hover {
     color:#57585A;
     border:none;
 }
-
 
 /* #Objects
 
@@ -487,6 +508,29 @@ padding-top:30px
     background:#F1F1F2;
 }
 
+/* ## Media Query Recommendations & Most Popular
+
+*/
+
+@media (max-width: 768px) {
+    
+    .recommdendation_list .col-xs-15 {
+        text-align: center;
+    }
+    
+    .recommendation_thumbnail div > hr  {
+        margin-left:auto;
+    }
+    
+    .mostpopular_list .col-xs-15 {
+        text-align: center;
+  }
+    
+    .mostpopular_thumbnail > div > hr {
+        margin-left:auto;
+    }
+}
+
 /* # BookListing
 
 */
@@ -573,6 +617,10 @@ padding-top:30px
     margin-left:0px;
     background-color:#E6E7E8;
     border-bottom:1px solid #BBBDC0;
+}
+
+.top {
+    border-top:1px solid #BBBDC0;
 }
 
 .book_result_options > .row > .col-md-15 > .row > a:hover {
@@ -687,15 +735,44 @@ padding-top:30px
 
 */
 
-.myaccount_panel {
-    padding-left:0px;
-    background-color:#E6E7E8; 
+.utility_nav > ul > li > .active {
+    color:#D1BB2A;   
 }
 
+.utility_nav ul li .active a  {
+    color:#D1BB2A; 
+}
+
+.myaccount_panel {
+    padding-left:0px;
+    background-color:#F1F1F2; 
+}
+
+.myaccount_navigation_wrapper {
+      
+}
+
+.myaccount_navigation_link {
+    padding-right:30px;
+    text-align: center; 
+    border-right:1px #F1F1F2 solid;
+    background-color:#89C4B8;
+}
+
+a > .myaccount_navigation_link > h5 {
+    color:#F1F1F2;
+}
+
+
+a > .myaccount_navigation_link:hover {
+    padding-right:30px;
+    text-align: center; 
+    background-color:#D1BB2A;
+}
+
+
 .myaccount_navigation {
-    height:100px;
-    padding-top:20px;
-    background-color: #89C4B8;
+
 }
 
 .personal_information {
@@ -729,6 +806,10 @@ a > .checkout_button:hover {
     padding-left:0px;
 }
 
+.mybasket {
+    background-color:#D1BB2A;
+}
+
 .mybasket_item {
     padding-top:20px;
     padding-bottom:20px;
@@ -758,6 +839,11 @@ a > .checkout_button:hover {
 .myaccount_fines, .myaccount_checkout, .myaccount_status, .myaccount_booksdue {
     padding-top:15px;
     padding-bottom:15px;
+    
+}
+
+.myaccount_fines h6, .myaccount_status h6 {
+    color:#9A2D24;   
 }
 
 /* # Ask a Librarian
@@ -886,6 +972,7 @@ a > .appointment_title:hover {
 input.appointment_form {
     padding-left:20px;
 }
+
 /* # Footer
 
 */
@@ -949,4 +1036,14 @@ footer ul li a:visted {
     background-image:url("../images/site_search_icon_hover.png");
     background-repeat:no-repeat;
     background-position: 97%;;
+}
+
+/* ## Media Queries Footer
+
+*/
+
+@media (max-width: 768px) {
+  .center .col-xs-15 {
+      text-align: center;
+  }
 }
