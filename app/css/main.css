@@ -1,0 +1,952 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* # Elements
+
+basic styling of html tags
+
+*/
+
+body {
+}
+
+.container {
+  
+}
+
+hr {
+    border:solid 1px #57585A;
+}
+
+.vr {
+    height:161px;
+    border-right: 1px solid #F1F1F2;   
+}
+
+.float {
+    float:left;
+}
+
+ul {
+    
+}
+
+li {
+    list-style: none;
+    margin-right:10px;
+}
+
+li a {
+ margin-right:10px;   
+}
+
+a > .active {
+    color:#D1BB2A;  
+}
+
+/* ## Headers
+
+Primary header styles used throughout the site.
+
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+	
+	
+	<div class="alpha">Alpha Heading</div>
+	<div class="beta">Beta Heading</div>
+	
+
+*/ 
+  
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size:30px;
+}
+
+h3 {
+    font-size:25px;
+}
+
+h4 {
+    font-size:20px;
+}
+
+h5 {
+    font-size:16px;
+}
+
+h6 {
+    font-size:14px; 
+    color:#57585A;
+}
+
+h7 {
+    font-size:10px; 
+    color:#57585A;
+}
+
+
+
+.alpha {
+	font-size: 60px;
+}
+
+.beta {
+	font-size: 48px;
+}
+
+
+
+/* # Navigations
+
+*/
+
+.utility_wrapper {
+    background-color:#F1F1F2;
+    padding-top:45px;
+}
+
+.home_links {
+ margin-bottom:25px;   
+}
+
+.home_decker_wrapper {
+    padding
+    padding-left:0px;
+}
+
+.mica_logo_header {
+    padding-left:12px;
+}
+
+.home_decker {
+    padding-right:15px;
+    border-right: 1px solid #57585A;
+    margin-top:5px;
+    margin-right:15px;
+    color:#57585A;
+}
+
+.goodevening {
+    margin-top:-10px;
+    margin-bottom:0px;
+    
+}
+
+.utility_nav ul li a{
+    color:#57585A;
+}
+
+.utility_nav ul li a:hover {
+    color:#D1BB2A;
+    text-decoration: none;
+}
+
+.utility_nav ul li a:visted {
+    color:#D1BB2A;
+}
+
+.secondary_nav ul li a{
+    color:#57585A;
+}
+
+.secondary_nav ul li a:hover {
+    color:#D1BB2A;
+    text-decoration: none;
+}
+
+.secondary_nav ul li a:visted {
+    color:#D1BB2A;
+}
+
+.secondary_nav {
+    padding-top:10px;
+    padding-bottom:15px;   
+}
+
+.main_nav {
+    padding:0px;
+    margin-right:1px;
+    margin-top:15px;
+    color:#F1F1F2; 
+}
+
+.research_project {
+    padding-right:25px;
+    border-right:1px solid white;
+    background-color:#D1BB2A;
+}
+
+.research_project:hover {
+    background-color:#89C4B8;
+}
+
+a > .research_project > h3 {
+    color:white; 
+
+}
+
+a > .research_project > h3:hover {
+    color:white; 
+}
+
+.what_we_offer {
+    background-color:#D1BB2A;
+    border-right:1px solid white;
+}
+
+.what_we_offer:hover {
+    background-color:#89C4B8;
+}
+
+a > .what_we_offer > h3 {
+     color:white; 
+}
+
+a > .what_we_offer > h3:hover {
+     color:white; 
+}
+
+.ask_librarian {
+    background-color:#D1BB2A;
+}
+
+.ask_librarian:hover {
+    background-color:#89C4B8;
+}
+
+a > .ask_librarian > h3 {
+    color:white;   
+}
+
+a > .ask_librarian > h3:hover {
+    color:white;   
+}
+
+.research_database {
+    color:#F1F1F2; 
+    padding-left:0px;
+    border-left:#F1F1F2; 
+}
+
+.research_database_wrapper {
+    padding:0px;
+    border-left: 1px solid #f1f1f2; 
+}
+
+.research_database > a:hover {
+    text-decoration: none;
+}
+
+.special_collections, .images_and_media, .other_resources {
+    background-color:#89C4B8;
+    color:#F1F1F2; 
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    padding-top:5px;
+    padding-bottom:4px;
+    padding-left:20px;
+    border-bottom:1px solid #F1F1F2;
+}
+
+.other_resources {
+    padding-bottom:5px;   
+}
+
+.special_collections:hover, .images_and_media:hover, .other_resources:hover {
+    background-color:#D1BB2A;
+}
+
+.footer_headerlinks {
+    color:#89C4B8;
+    margin-bottom:5px;
+}
+
+.footer_headerlinks_endsection {
+    margin-bottom:10px;
+}
+/* # Main Content General
+*/
+
+.main_container {
+ padding:0px;   
+}
+
+
+/* # News
+*/
+
+.news {
+    color:#F1F1F2; 
+}
+
+.news_image {
+    margin-right:0px;   
+}
+
+/* # Catalog Search
+
+*/
+
+.search_wrapper {
+   background-color:#89C4B8; 
+}
+
+.catalogsearch {
+    height:137px;
+    padding-top:44px;  
+}
+
+.searchbar > input {
+    background-image:url("../images/catalog_search_icon.png");
+    background-repeat:no-repeat;
+    background-position: 97%;;
+}
+
+.searchbar > input:hover {
+    background-image:url("../images/catalog_search_icon_hover.png");
+    background-repeat:no-repeat;
+    background-position: 97%;;
+}
+
+
+/* ## Catalog Tabs
+
+*/
+
+
+.catalog_tab_wrapper {
+    background:#F1F1F2;
+}
+
+.catalog_tab > li > a {
+    padding-right:28px;
+    padding-left:28px;
+    font-size:20px;
+    color:#D1BB2A;
+    text-decoration:none;
+}
+
+.catalog_tab > li {
+    margin-right:0px; 
+}
+
+.nav-tabs > li > a {
+  background-color:white;
+    border-right:#89C4B8;
+}
+
+.nav-tabs > li > a:hover {
+    background-color:#89C4B8;
+    color:#57585A;
+    border:none;
+}
+
+
+/* #Objects
+
+Modular Objects re-used throughout site */
+
+/* ## Media Object
+
+image + Content
+
+<div class="media book-item">
+			<img src="http://placecage.com/300/300" alt="" class="src">
+			<div class="body">
+				<h2 class="book-title">book title</h2>
+				<p class="book-excerpt">book exceprt</p>
+			</div>
+		</div>
+
+*/
+
+.media {
+	overflow:hidden;
+}
+
+.media .src {
+	float:left;
+	margin-right:10px;
+}
+
+.media .body {
+	overflow:hidden;
+}
+
+/* # Modules
+
+*/
+
+
+
+
+/* ## Book Item
+
+	Based off the Media Object
+	
+	<div></div>
+*/
+
+.book-item {
+	background-color:red;
+}
+
+.book-item .src {
+	margin-right:0;
+}
+
+.book-item .body {
+	padding: 10px 20px;
+}
+
+
+
+
+/* # Recommendations & Most Popular
+
+*/
+.recommendations {
+ 
+    border-bottom:1px #57585A solid;
+}
+
+.recommendations_header {
+    margin-top:20px;
+    background-color:#57585A;
+    color:#F1F1F2;
+}
+
+.recommendations_header h6, .mostpopular_header h6 {
+    color:#F1F1F2;
+}
+
+.recommdendation_list {
+    padding-top:25px;
+}
+
+.recommendation_thumbnail > .author {
+padding-top:30px    
+}
+
+.recommendation_thumbnail > div > hr {
+    width:30px;
+    margin-left:0px;
+    margin-bottom:0px;
+    border: 1px solid #57585A;
+}
+
+.mostpopular_thumbnail > .author {
+padding-top:30px    
+}
+
+.mostpopular_thumbnail > div > hr {
+    width:30px;
+    margin-left:0px;
+    margin-bottom:0px;
+    border: 1px solid #57585A;
+}
+
+.mostpopular {
+    border-bottom:1px black solid;
+    margin-bottom:20px;
+}
+
+.mostpopular_header {
+    background-color:#57585A;
+    color:#F1F1F2;
+}
+
+.recommendation_seeall {
+     margin-top:20px;
+}
+
+.seeall_arrow {
+    margin-left:15px;   
+    margin-top:11px;
+}
+
+.right_navigation {
+    
+}
+
+.left_navigation, .right_navigation {
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+.left_navigation:hover, .right_navigation:hover {
+    background:#F1F1F2;
+}
+
+/* # BookListing
+
+*/
+
+.checkbox {
+    
+}
+
+.refine_search_header {
+    background-color:#E6E7E8;
+    border-bottom:1px #939597 solid;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+}
+
+.refine_search_wrapper  { 
+    background-color:#E6E7E8;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.book_results_header {
+    padding-top:20px;
+    background-color:#F1F1F2;
+    border-bottom:1px #939597 solid;
+}
+
+.book_results_header > h5 {
+    margin-left:8%;
+}
+
+.book_results_wrapper {
+    padding-left:0px;
+    background-color:#F1F1F2;
+    border-bottom:1px solid #BBBDC0;
+}
+
+.result_options_wrapper {
+    background-color:#F1F1F2;
+}
+
+.characteristic_border {
+    border-bottom:1px solid #BBBDC0;
+}
+
+.refine_search_characteristic {
+    padding-top:10px;
+    padding-bottom:10px;   
+}
+
+.refine_search_wrapper > .row {
+    margin-right:0px;
+}
+
+
+
+.book_result_last {
+    border-bottom:none;
+}
+
+.book_result_options > .row > .col-md-15 {
+   padding-left:0px;
+}
+
+.book_result_options {
+    border-left:1px solid #BBBDC0;
+    padding-left:0px;
+}
+
+.book_result_option {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    margin-left:0px;
+    border-bottom:1px solid #BBBDC0;
+    text-align: center;
+}
+
+.book_result_option:hover {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    margin-left:0px;
+    background-color:#E6E7E8;
+    border-bottom:1px solid #BBBDC0;
+}
+
+.book_result_options > .row > .col-md-15 > .row > a:hover {
+    text-decoration:none;
+}
+
+.buy_now {
+    border-bottom:none;
+}
+
+.buy_now:hover {
+    border-bottom:none;
+}
+
+.right_arrow_small {
+    padding-top:6px;   
+}
+
+
+.book_result_thumbnail {
+    
+} 
+
+.book_result_information {
+    line-height: 0px;   
+}
+
+.book_result > .col-md-10 > .row {
+    padding-top:20px;
+}
+
+.book_result_information > a:hover {
+    text-decoration: none;   
+}
+
+.book_result_information > .row > .col-md-8 {
+ padding-left:0px;   
+}
+
+.book_title {
+    color:#D1BB2A;
+}
+
+.book_result_author {
+ line-height: 0px;   
+}
+
+.call_number_title {
+    padding-top:15px;   
+}
+
+.call_number {
+ line-height: 0px;   
+}
+
+.publication_title {
+    padding-top:15px;
+}
+
+.publication {
+ line-height: 0px;   
+}
+
+.availability_title {
+    padding-top:15px;
+}
+
+.availability {
+     line-height: 0px;   
+}
+
+.page_results {
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-right:-10px;
+    background-color:#E6E7E8;
+    text-align: center;
+}
+
+.pagination_left {
+    margin-top:12px;
+}
+
+.pagination_right {
+    margin-top:7px;
+}
+
+.expand_option {
+    padding-top:2px;
+    padding-left:2px;
+}
+
+.expand_option_number {
+    padding-top:2px;
+}
+
+.panel-group .panel + .panel {
+    margin-top:0px;
+}
+
+.panel-group .panel {
+    border-radius:0px;
+}
+
+.panel {
+    border-bottom:0px;
+    background-color:#E6E7E8;
+}
+
+
+/* # My Account
+
+*/
+
+.myaccount_panel {
+    padding-left:0px;
+    background-color:#E6E7E8; 
+}
+
+.myaccount_navigation {
+    height:100px;
+    padding-top:20px;
+    background-color: #89C4B8;
+}
+
+.personal_information {
+    padding-top:20px;
+    margin-bottom:50px;
+}
+
+.profile_picture {
+    margin-top:20px;
+    margin-bottom:20px;
+    background-color:white;
+    height:100px;
+    width:100px;
+}
+
+.checkout_button {
+    margin-bottom:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:#89C4B8;
+    text-align: center;
+    color:white;
+}
+
+
+a > .checkout_button:hover {
+    background-color:#D1BB2A;
+}
+
+.myaccount_information_wrapper {
+    padding-left:0px;
+}
+
+.mybasket_item {
+    padding-top:20px;
+    padding-bottom:20px;
+    border-bottom:1px solid #D1D2D4;
+    border-right:1px solid #D1D2D4;
+    border-left:1px solid #D1D2D4;
+}
+
+.myaccount_detail {
+    padding-left:20px;
+    margin-left:0px;
+    border-bottom:1px solid #D1D2D4;
+    text-align: left;
+}
+
+.myaccount_detail_top {
+    border-top:1px solid #D1D2D4;
+}
+
+.myaccount_detail_option {
+    border-left:1px solid #D1D2D4;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+}   
+
+.myaccount_fines, .myaccount_checkout, .myaccount_status, .myaccount_booksdue {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+/* # Ask a Librarian
+
+*/
+
+.ask_librarian_headers {
+    margin-top:30px;   
+}
+
+.faq {
+    padding-right:0px;
+}
+
+.faq > .panel {
+    margin-bottom:0px;
+    border-radius: 0px;
+}
+
+.faq_header {
+    background-color:#89C4B8;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+
+.chat_nav {
+    background-color:white;
+    padding-left:0px;
+
+}
+
+.chat_header_wrapper {
+    padding-left:0px;   
+}
+
+.chat_header {
+    background-color:#89C4B8;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+}
+
+.chat_send_wrapper {
+    margin-right:0px;   
+}
+
+.chat_send > h6 {
+    color:#D1BB2A;   
+}
+
+.chat_send_wrapper {
+    background-color:#F1F1F2;
+    border-top:1px #D1D2D4 solid; 
+    border-left: 1px #D1D2D4 solid;  
+    text-align: center;
+}
+
+.chat_nav > .row > input {
+    
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;   
+}
+
+.chat_input {
+    border-top:1px #D1D2D4 solid;    
+}
+
+.chat_feed {
+    padding-top:50px;
+    padding-right:10px;
+    height:410px;
+    background-color:#F1F1F2;
+    margin-right:-9px;
+}
+
+
+.librarian_info {
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:10px;
+    background-color:#D1BB2A;
+    line-height: 12px;
+}
+.librarian_info > h6 {
+ line-height: 10px;   
+}
+
+.appointment {
+   
+}
+
+.appointment_title {
+    padding-left:20px;
+    padding-bottom:5px;
+}
+
+a > .appointment_title:hover {
+    text-decoration: none;
+}
+
+a > .appointment_title:hover {
+    text-decoration: none;
+}
+
+.appointment > .panel {
+    border-radius:0px; 
+    border:none;
+    border-top:1px solid white;
+    background-color:#D1BB2A; 
+}
+
+#collapse16, #collapse17, #collapse18, #collapse19 {
+   padding-left:20px; 
+}
+
+.appointment_form {
+    padding-left:20px;
+}
+
+.appointment_form > .row {
+    padding-left:0;
+}
+
+input.appointment_form {
+    padding-left:20px;
+}
+/* # Footer
+
+*/
+
+footer {
+    padding-top:26px;
+    padding-bottom:26px;
+    background-color:#57585A;
+    color:#F1F1F2;
+}
+
+footer.container {
+        background-color:#57585A;
+}
+
+footer ul li a{
+    color:white;
+}
+
+footer ul li a:hover {
+    color:#D1BB2A;
+    text-decoration: none;
+}
+
+footer ul li a:visted {
+    color:#D1BB2A;
+}
+
+.social_media {
+    margin-top:40px;
+    margin-bottom:60px;
+}
+
+.social_media_icon {
+    padding-right:10px;
+}
+
+.twitter {
+    height:24px;
+    width:27px;
+    border:none;
+    background-image:url("../images/twitter_icon.png");
+    display:block; 
+}
+
+.mica_logo_footer {
+    padding-left:0px;
+}
+
+.address h6 {
+    color:#F1F1F2;
+}
+
+.site_search > input {
+    background-image:url("../images/site_search_icon.png");
+    background-repeat:no-repeat;
+    background-position: 97%;;
+}
+
+.site_search > input:hover {
+    background-image:url("../images/site_search_icon_hover.png");
+    background-repeat:no-repeat;
+    background-position: 97%;;
+}

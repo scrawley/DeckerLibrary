@@ -1,0 +1,18 @@
+{
+  "name": "DeckerLibrarySite",
+  "version": "0.0.0",
+  "description": "Mica Decker Library Redesign",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jqueryjs": "~1.8.2",
+    "jquery-ui": "~1.11.4"
+  }
+}
