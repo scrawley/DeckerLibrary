@@ -1012,6 +1012,26 @@ input.appointment_form {
     padding-bottom:15px;
 }
 
+.brp_overview {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.brp_overview_option {
+    border-left:1px solid #D1D2D4;
+    padding-top:15px;
+    padding-bottom:15px;
+    text-align: center;
+} 
+
+.brp_overview_option:hover {
+    border-left:1px solid #D1D2D4;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:white;
+} 
+
+
 /* # What We Offer
 
 */
