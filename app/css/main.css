@@ -770,11 +770,6 @@ a > .myaccount_navigation_link:hover {
     background-color:#D1BB2A;
 }
 
-
-.myaccount_navigation {
-
-}
-
 .personal_information {
     padding-top:20px;
     margin-bottom:50px;
@@ -972,6 +967,108 @@ a > .appointment_title:hover {
 input.appointment_form {
     padding-left:20px;
 }
+
+/* # Begin a research Project
+
+*/
+
+.brp_link {
+     background-color:#D1BB2A;
+    text-align: left;
+    color:white;
+    margin-top:5px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.brp_link:hover {
+    background-color:#89C4B8;
+    
+}
+
+.brp_link_wrapper a:hover {
+    color:white;
+    text-decoration: none;
+    
+}
+
+.brp_panel {
+    padding-left:0px;
+    background-color:#F1F1F2; 
+    margin-top:5px;
+    margin-bottom:15px;
+}
+
+.brp_projectname {
+    padding-top:15px;
+    padding-bottom:15px;
+    
+}
+
+.brp_sources h6 {
+    color:#57585A;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+/* # What We Offer
+
+*/
+
+.wwo_header {
+    background-color:#89C4B8;
+    padding-left:130px;
+    text-align: left;
+    color:white;
+}
+
+.wwo_wrapper {
+    margin-top:10px;
+}
+
+.wwo {
+    padding-left:10px;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-color:#D1BB2A;
+    color:#F1F1F2;
+    border-right:1px solid #F1F1F2;
+}
+
+.wwo_text {
+    padding-left:10px;
+    background-color:white;
+    color:#57585A;
+}
+
+.wwo_link {
+     background-color:#89C4B8;
+    text-align: left;
+    color:white;
+    margin-top:5px;
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.wwo_link_wrapper a:hover {
+    color:white;
+    text-decoration: none;
+    background-color:#D1BB2A;
+}
+
+.wwo_accordion > .panel {
+    background-color:#D1BB2A;
+    color:white;
+    border-radius:0px;
+    border:none;
+}
+
+.wwo_accordion > .panel > a {
+    color:white;
+}
+    
 
 /* # Footer
 
